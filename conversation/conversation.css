@@ -1,7 +1,0 @@
-.conversation {
-    background-image: linear-gradient(to right, red , yellow, rgb(0, 247, 255));
-    background-image: url(./chat_wallpaper/chat_wallpaper.jpeg);
-    /*background-color: rgb(219, 219, 219);*/
-    background-size: cover;
-    height: 100vh;
-}
