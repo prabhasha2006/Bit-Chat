@@ -1,0 +1,118 @@
+/*asap*/@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+/*popins*/@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-header {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.home-head-left {
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.home-head-right {
+    width: 10%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.back-button {
+    width: 40px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    font-family: "Asap", sans-serif;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.082);
+    border: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.back-button:hover {
+    color: rgb(255, 0, 0);
+}
+.home-head-left img {
+    margin-left: 15px;
+    border-radius: 100px;
+    width: 38px;
+    box-shadow: 00 2px 5px black;
+}
+.home-head-left a {
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 00 1px 2px black;
+}
+.home-head-right img {
+    margin-right: 8px;
+    width: 25px;
+    transition: .2s;
+}
+.home-head-right img:hover {
+    margin-right: 5px;
+    width: 28px;
+    transform: rotate(-90deg);
+}
+.home-head-menu {
+    margin-top: 30px;
+    width: 110px;
+    height: 130px;
+    background-color: rgb(250, 246, 0);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: .6s;
+}
+.home-head-menu input {
+    height: 30px;
+    width: 110px;
+    margin-top: 14px;
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+    color: rgb(102, 102, 102);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: left;
+    border-left: 3px solid red;
+    z-index: 3;
+}
+.home-head-menu input:hover {
+    height: 30px;
+    width: 110px;
+    margin-top: 14px;
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: left;
+    border-left: 3px solid rgb(143, 0, 0);
+    z-index: 3;
+}

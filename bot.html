@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./conversation/header.css">
+    <link rel="stylesheet" href="./conversation/conversation.css">
+    <link rel="stylesheet" href="./conversation/body.css">
+    <link rel="stylesheet" href="./conversation/footer.css">
+    <link rel="stylesheet" href="./conversation/on-scroll-fix.css">
+
+    <link rel="stylesheet" href="xcodejet.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="all">
+    
+<div class="conversation" style="background-image: url(./conversation/chat_wallpaper/blog-best-EU-apps_01.png)">
+    <div id="CONVERSATION_HEAD_FIX" class="conversation-header">
+        <div class="conversation-head-left">
+            <button class="back-button" onclick="new_chat('home')"><i class='fa fa-arrow-left'></i></button>
+            <img id="CONVERSATION_DP" draggable="false" src="./profile-photo/bot.png" alt="BitChat">
+            <a id="CONVERSATION_NAME">Bit-Robo<img style="width: 20px; margin-left: 3px;" src="https://cdn-icons-png.flaticon.com/512/3472/3472620.png" alt=""></a>
+        </div>
+        <div class="conversation-head-right">
+            <img draggable="false" src="https://cdn-icons-png.flaticon.com/512/5996/5996405.png" alt="MORE">
+        </div>
+    </div>
+    <div class="conversation-body">
+        <div style="height: 10px;"></div>
+        <section class="message-alert">
+            <a><p class="SEND_MESSAGE">Today</p></a>
+        </section>
+        <section class="message-recieve">
+            <a><p class="RECIEVE_MESSAGE">Hey, I am a chat bot of <br>I can fuck well<br><div class="message-time" align="right"><i>23:14</i></div></p></a>
+        </section>
+    </div>
+    <div class="conversation-footer">
+        <div class="conversation-footer-out">
+            <div class="conversation-footer-out-input">
+                <a> <i class="fa fa-smile-o"></i></a>
+                <!--<input id="MESSAGE_BOX" class="conversation-footer-out-input-field" type="text" placeholder="BitChat by xcodejet">-->
+                <textarea id="MESSAGE_BOX" class="conversation-footer-out-input-field" cols="30" rows="1" placeholder="BitChat by xcodejet"></textarea>
+            </div>
+            <div class="conversation-footer-out-send">
+                <a onclick="send_message('SEND')"><i class='fa fa-arrow-right'></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--<script src="./controll/controll.js"></script>-->
+<script src="./conversation/bot.js"></script>
+<script src="./conversation/new-contact.js"></script>
+<script src="./conversation/conversation-header-fix.js"></script>
+</body>
+</html>

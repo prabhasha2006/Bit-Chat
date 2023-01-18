@@ -1,0 +1,48 @@
+/*popins*/@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.home-body {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+.home-account-element {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    border-bottom: .3px solid rgb(190, 190, 190);
+    display: flex;
+    align-items: center;
+}
+.home-account-element-dp {
+    width: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.home-account-element-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-account-element-name {
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.home-account-element-name:hover {
+    font-weight: bold;
+    font-size: 15.6px;
+}
+.home-account-element-under {
+    font-size: 11px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(68, 68, 68);
+}

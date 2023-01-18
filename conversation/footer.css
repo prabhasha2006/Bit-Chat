@@ -1,0 +1,71 @@
+.conversation-footer {
+    background-color: transparent;
+    background-size: cover;
+    height: 8.1vh;
+    vertical-align: bottom;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+.conversation-footer-out {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0) , rgba(255, 255, 0, 0) 80%, rgba(255, 0, 0, 0) 90%, rgba(255, 255, 255, 0) 100%);
+}
+.conversation-footer-out-input {
+    background-color: aliceblue;
+    width: 85%;
+    margin-left: 5px;
+    border-radius: 25px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.conversation-footer-out-input a {
+    margin-left: 10px;
+    font-size: 25px;
+    color: rgb(44, 44, 44);
+}
+.conversation-footer-out-input-field {
+    margin-left: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 80%;
+    resize: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conversation-footer-out-send {
+    background-color: rgb(255, 251, 0);
+    width: 33px;
+    margin-left: 5px;
+    border-radius: 25px;
+    height: 34px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conversation-footer-out-send a {
+    transition: 1s;
+    color: rgb(59, 59, 59);
+}
+.conversation-footer-out-send a:hover {
+    transition: .3s;
+    transform: rotate(-90deg);
+    color: rgb(255, 0, 0);
+}

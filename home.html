@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./conversation/header.css">
+    <link rel="stylesheet" href="./conversation/conversation.css">
+    <link rel="stylesheet" href="./conversation/body.css">
+    <link rel="stylesheet" href="./conversation/footer.css">
+    <link rel="stylesheet" href="./conversation/on-scroll-fix.css">
+
+    <link rel="stylesheet" href="./home/header.css">
+    <link rel="stylesheet" href="./home/navigation-bar.css">
+    <link rel="stylesheet" href="./home/conversation.css">
+    <link rel="stylesheet" href="./home/body.css">
+    <link rel="stylesheet" href="./home/footer.css">
+    <link rel="stylesheet" href="./home/on-scroll-fix.css">
+
+    <link rel="stylesheet" href="xcodejet.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="all">
+
+<div class="home">
+    <div id="HOME_HEAD_FIX" class="home-header">
+        <div class="home-head-left">
+            <img id="HOME_IMG" draggable="false" src="./media/bitchat.jpg" alt="BitChat">
+            <a><b style="color: red;">Bit</b><b style="color: yellow;">Chat</b></a>
+        </div>
+        <div class="home-head-right">
+            <img draggable="false" src="https://cdn-icons-png.flaticon.com/512/4892/4892988.png" alt="MODE"><!--https://cdn-icons-png.flaticon.com/512/1687/1687686.png-->
+            <img draggable="false" src="https://cdn-icons-png.flaticon.com/512/200/200941.png" alt="SEARCH">
+            <img draggable="false" src="https://cdn-icons-png.flaticon.com/512/5996/5996405.png" alt="MORE">
+        </div>
+    </div>
+    <div class="home-navigation">
+        <a class="home-navigation-1-btn" onclick="navigation_btn_highlight(this, '1', '2')">Communicate</a>
+        <a class="home-navigation-1-btn" onclick="navigation_btn_highlight(this, '0', '2')">AddOns</a>
+        <a class="home-navigation-1-btn" onclick="navigation_btn_highlight(this, '0', '1')">Alerts</a>
+    </div>
+    <div class="home-navigation-2">
+        <a class="home-navigation-1-btn">Chats</a>
+        <a class="home-navigation-1-btn">Groups</a>
+        <a class="home-navigation-1-btn">Status</a>
+        <a class="home-navigation-1-btn">Calls</a>
+    </div>
+    <div class="home-body">
+        <div class="home-account-element">
+            <img class="home-account-element-dp" draggable="false" src="./profile-photo/bot.png" alt="DP">
+            <div class="home-account-element-text" onclick="new_chat('bot')">
+                <a class="home-account-element-name" style="display: flex; align-items: center;">Bot<img style="width: 20px; margin-left: 3px;" src="https://cdn-icons-png.flaticon.com/512/2143/2143150.png"></a>
+                <a class="home-account-element-under">Avalable now!</a>
+            </div>
+        </div>
+        <div class="home-account-element">
+            <img class="home-account-element-dp" draggable="false" src="./profile-photo/pasindu.jpeg" alt="DP">
+            <div class="home-account-element-text" onclick="new_chat('pasindu')">
+                <a class="home-account-element-name">Pasindu</a>
+                <a class="home-account-element-under">Last seen today 20:55</a>
+            </div>
+        </div>
+        <div class="home-account-element">
+            <img class="home-account-element-dp" draggable="false" src="./profile-photo/kumuthu.jpeg" alt="DP">
+            <div class="home-account-element-text" onclick="new_chat('kumuthu')">
+                <a class="home-account-element-name">Kumuthu</a>
+                <a class="home-account-element-under">Now online</a>
+            </div>
+        </div>
+        <div class="home-account-element">
+            <img class="home-account-element-dp" draggable="false" src="./profile-photo/anuja.jpeg" alt="DP">
+            <div class="home-account-element-text" onclick="new_chat('anuja')">
+                <a class="home-account-element-name">Anuja</a>
+                <a class="home-account-element-under">Last seen today 16:43</a>
+            </div>
+        </div>
+        <div class="home-account-element">
+            <img class="home-account-element-dp" draggable="false" src="./profile-photo/xcodejet.jpg" alt="DP">
+            <div class="home-account-element-text" onclick="new_chat('kumuthu')">
+                <a class="home-account-element-name" style="display: flex; align-items: center;">XCODEJET<img style="width: 20px; margin-left: 3px;" src="https://cdn-icons-png.flaticon.com/128/3472/3472620.png"></a>
+                <a class="home-account-element-under">The provider of BitChat</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./controll/controll.js"></script>
+<script src="./conversation/sendMessage.js"></script>
+<script src="./conversation/new-contact.js"></script>
+<script src="./conversation/conversation-header-fix.js"></script>
+</body>
+</html>
