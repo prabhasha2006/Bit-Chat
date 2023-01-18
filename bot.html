@@ -36,7 +36,7 @@
             <a><p class="SEND_MESSAGE">Today</p></a>
         </section>
         <section class="message-recieve">
-            <a><p class="RECIEVE_MESSAGE">Hey, I am a chat bot of <br>I can fuck well<br><div class="message-time" align="right"><i>23:14</i></div></p></a>
+            <a class="message-recieve-a"><p class="RECIEVE_MESSAGE">Hey, I am a chat bot of <br>How can I help you ?<br><div class="message-time" align="right"><i>23:14</i></div></p></a>
         </section>
     </div>
     <div class="conversation-footer">
@@ -44,7 +44,7 @@
             <div class="conversation-footer-out-input">
                 <a> <i class="fa fa-smile-o"></i></a>
                 <!--<input id="MESSAGE_BOX" class="conversation-footer-out-input-field" type="text" placeholder="BitChat by xcodejet">-->
-                <textarea id="MESSAGE_BOX" class="conversation-footer-out-input-field" cols="30" rows="1" placeholder="BitChat by xcodejet"></textarea>
+                <textarea id="MESSAGE_BOX" oninput="msgbox_resize(this)" class="conversation-footer-out-input-field" cols="30" rows="1" placeholder="BitChat by xcodejet"></textarea>
             </div>
             <div class="conversation-footer-out-send">
                 <a onclick="send_message('SEND')"><i class='fa fa-arrow-right'></i></a>
