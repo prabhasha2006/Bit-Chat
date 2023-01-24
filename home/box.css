@@ -1,0 +1,73 @@
+@import url(./font.css);
+
+.box {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 650px) {
+    .box {
+        flex-direction: column;
+    }
+    .box-text h1 {
+        font-size: 30px;
+    }
+    .box-text h3 {
+        font-size: 20px;
+    }
+}
+
+.box-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 90%;
+    border: 0px solid red;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 00 5px 10px rgb(196, 196, 196);
+}
+.box:nth-child(2n) {
+    background-color: rgb(247, 247, 247);
+}
+.box-1 img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+.box-text {
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 650px) {
+    .box-1 {
+        flex-direction: column;
+    }
+    .box-text {
+        width: 100%;
+        padding: 10px;
+    }
+}
+.box-text h1 {
+    font-weight: bold;
+    font-family: 'MagmaWave-Caps';
+}
+.box-text h4 {
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    max-width: 700px;
+}
+.xcodejet-font {
+    font-family: 'Proximateus';
+}
