@@ -210,30 +210,26 @@ li {
     color: rgb(117, 117, 117);
     transition: .4s;
 }
-.card-body-footer-next-btn {
+.card-body-footer-next div {
     margin-right: 15%;
     padding: 15px;
     font-family: 'Poppins', sans-serif;
     height: 40px;
-    box-shadow: 00 1px 5px black;
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
-    background-color: rgb(27, 99, 255);
-    color: white;
+    box-shadow: 00 1px 15px hsl(177, 100%, 50%);
+    background-color: #2af8ff;
+    color: rgb(104, 104, 104);
     transition: .4s;  
 }
-.card-body-footer-next-btn:hover {
-    background-color: aqua;
-    margin-right: 14%;
-    color: black;
-}
-.card-body-footer-back-btn:hover {
-    color: rgb(14, 14, 14);
-    margin-left: 14%;
+.card-body-footer-next div:hover{
+    box-shadow: 00 1px 15px hsl(236, 100%, 50%);
+    background-color: #41b9ff;
+    color: white;
 }
 
 

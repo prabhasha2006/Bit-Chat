@@ -1,8 +1,8 @@
 //* home page
 setTimeout(typeWriter, 1000)
 var i = 0;
-var bitrobo_message1 = 'Hey👋,;I am Bit-Robo.🎲';
-var speed_ = 100;
+var bitrobo_message1 = 'Hey👋,;How are you❔;I am Bit-Robo.🎲;Guide of the bit-chat.;Thanks for visiting us❤️';
+var speed_ = 150;
 function typeWriter(statement) {
   statement = "create-account-name"
   if(statement === "create-account-name"){

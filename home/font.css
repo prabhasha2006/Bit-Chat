@@ -12,21 +12,21 @@
 }
 @font-face {
     font-family: 'MagmaWave-Caps';
-    src: url(./style-fonts/MagmaWave\ Caps.otf);
-}
-@font-face {
-    font-family: 'OriginTech-personal';
-    src: url(./style-fonts/OriginTech\ personal\ use.ttf);
-}
-@font-face {
-    font-family: 'Charlotte-Southern';
-    src: url(./style-fonts/Charlotte\ Southern.otf);
-}
-@font-face {
-    font-family: 'Charlotte-Southern';
-    src: url(./style-fonts/Charlotte\ Southern.otf);
+    src: url(./style-fonts/MagmaWave-Caps.otf);
 }
 @font-face {
     font-family: 'Proximateus';
     src: url(./style-fonts/Proximateus.ttf);
+}
+@font-face {
+    font-family: 'OriginTech-personal';
+    src: url(./style-fonts/OriginTech-personal-use.ttf);
+}
+@font-face {
+    font-family: 'Charlotte-Southern';
+    src: url(./style-fonts/Charlotte\ Southern.otf);
+}
+@font-face {
+    font-family: 'Charlotte-Southern';
+    src: url(./style-fonts/Charlotte\ Southern.otf);
 }
